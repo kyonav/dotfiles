@@ -1,12 +1,15 @@
 #! /bin/sh
 
-# keyboard layout
-setxkbmap -layout br -variant abnt2 &
+setxkbmap -layout br -variant abnt2 & # keyboard layout
 
-# background wallpaper
-#nitrogen --set-auto ~/pics/wpps/wallhaven-2y6kd9.png &
-feh --bg-scale ~/pics/wpps/wallhaven-1p26mw.png &
+XDG_CONFIG_HOME/dwm/scripts/statusbar.sh & # status bar config
 
-# window compositor
-xcompmgr &
+flameshot & # screenshot daemon
+
+#nitrogen --set-auto ~/pics/wpps/wallhaven-2y6kd9.png & # bg wallpaper
+feh --bg-scale $HOME/pics/wpps/wallhaven-j35jeq.jpg &
+
+xcompmgr & # window compositor
+
+
 
