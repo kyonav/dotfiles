@@ -4,6 +4,7 @@
 
 ### Clone and install dylanaraps/pywal to create a coloscheme based on the wallpaper
 > $ git clone https://github.com/dylanaraps/pywal && cd pywal && sudo make && sudo make clean install
+
 > $ wal -i ~/path/to/the/wallpaper
 
 ### Compile dwm, st and dmenu again to apply the colorscheme
