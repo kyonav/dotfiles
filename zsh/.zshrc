@@ -1,4 +1,4 @@
-source $HOME/.zshenv # sources the .profile symlinked to .config
+source $HOME/.zshenv # Sources the .zshenv on the custom zsh folder
 
 autoload -U colors && colors # load colors
 PS1="%B%{$fg[white]%}[%{$fg[red]%}%n%{$fg[white]%}@%{$fg[white]%}%M %{$fg[black]%}%~%{$fg[white]%}]%{$reset_color%}$%b "
@@ -8,7 +8,7 @@ zstyle ':completion:*' menu select
 zmodload zsh/complist
 compinit
 
-source $XDG_CONFIG_HOME/shell/aliasrc # source the aliases file
+source $XDG_CONFIG_HOME/aliasrc # source the aliases file
 
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh # enable syntax highlighting
 
